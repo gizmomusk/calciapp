@@ -1,1 +1,4 @@
-powershell -ExecutionPolicy Bypass -File "C:\Users\Dell\setup_task_scheduler.ps1"
+@echo off
+cd C:\Users\Dell
+python run_calciapp.py
+pause
